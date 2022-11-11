@@ -1,1 +1,8 @@
-div{background-color: #a1b5cd;}
+div{
+    background-color: #95b0d1;
+}
+
+app-redes{
+    float: right;
+    margin-top: 25px;
+}
