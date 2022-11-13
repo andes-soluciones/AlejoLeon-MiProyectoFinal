@@ -1,5 +1,5 @@
 .row{
-    padding: 10px;
+    padding: 0px;
 }
 
 div{
@@ -7,16 +7,28 @@ div{
     text-align: left;
 }
 
-#name{
-    font-weight: bold;
-    font-size: 25px;
+@media (min-width: 576px){
+    #fotoperfil{
+        position: absolute;
+        width: 10%;
+        box-shadow: 9px 9px 9px rgb(59, 59, 59);
+        left: 1%;
+        top: 300px;
+    }
+}
+
+#title{
+    text-align: right;
 }
 
 #subtitle{
+    padding: 1rem 0rem 0rem;
     font-weight: bold;
     font-size: 20px;
 }
 
 #parrafo{
+    padding: 0rem 0.5rem 0rem 0rem;
+    text-align: left;
     font-style: italic;
 }
