@@ -5,9 +5,13 @@
     font-variant: small-caps;
     text-align: left;
     letter-spacing: 2px;
-    padding: 20px 15px 5px;
+    padding: 20px 20px 20px;
     background-color: blue;
     height: 300px;
     background-image: url(../assets/Imagen-andes1.png);
     background-size: auto;
+}
+
+h1{
+    margin-bottom: 0px;
 }
